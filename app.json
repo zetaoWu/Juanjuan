@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myCard/myCard",
+    "pages/camera/camera"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "卷卷",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#D3D3D3",
+    "selectedColor": "#46ae18",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/kajuan.png",
+        "selectedIconPath": "imgs/kajuansel.png",
+        "text": "卡卷"
+      },
+      {
+        "pagePath": "pages/camera/camera",
+        "iconPath": "imgs/camera.png",
+        "selectedIconPath": "imgs/camerasel.png"
+      },
+      {
+        "iconPath": "imgs/me.png",
+        "selectedIconPath": "imgs/mesel.png",
+        "pagePath": "pages/myCard/myCard",
+        "text": "我的卷"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
